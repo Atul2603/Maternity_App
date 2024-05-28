@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body 
+{
+	
+}
+h1,h2
+{
+	font-family: 'Lato', sans-serif;
+}
+p
+{
+    font-family: 'Raleway', sans-serif;
+	text-align: justify;
+}
+#main_page 
+{
+	min-height: 100vh;
+}
+#main_page #left 
+{
+	min-height: 100vh;
+	background: url('../img/l1.jpg');
+	background-size: cover;
+	color: white;
+	padding-top: 150px;
+}
+#main_page #right 
+{
+	min-height: 100vh;
+	background: url('../img/r1.jpg');
+	background-size: cover;
+	color: white;
+	padding-top: 150px;
+}
+#header
+{
+	min-height: 50px;
+	background: black;
+}
